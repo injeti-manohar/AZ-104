@@ -13,3 +13,6 @@ Azure AD helps you authenticate in -
 | Business-to-Business (B2B) |  [B2B Docs](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/) | 
 | Business to Customer (B2C) |   [B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/) | 
 | Conditional Access | 
+
+### Groups
+the group is synced from on premises Windows AD they cannot be managed in Azure AD. They must be managed on-prem 
