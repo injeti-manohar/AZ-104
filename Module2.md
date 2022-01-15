@@ -14,3 +14,4 @@
 - Comprehensive compliance view of all your resources
 - Real-time policy enforcement and evaluation
 - Define a scope ; Yes, you may exclude a resource, resource group, subscription or management group from your policy assignment.
+**An Azure Policy as Code workflow makes it possible to manage your policy definitions and assignments as code, control the lifecycle of updating those definitions, and automate the validating of compliance results**
