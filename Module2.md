@@ -8,4 +8,9 @@
 - Monitor -- understand where costs originated within your organization. It's also useful to know how much money your services cost
 - manage both AWS (small charge) and Azure (free)
 - various connectors also available like power BI
-- 
+
+### Azure Policy 
+- help ensure cloud compliance, avoid misconfigurations and practice consistent resource governance
+- Comprehensive compliance view of all your resources
+- Real-time policy enforcement and evaluation
+- Define a scope ; Yes, you may exclude a resource, resource group, subscription or management group from your policy assignment.
