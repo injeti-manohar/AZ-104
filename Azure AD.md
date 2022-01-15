@@ -16,3 +16,6 @@ Azure AD helps you authenticate in -
 
 ### Groups
 the group is synced from on premises Windows AD they cannot be managed in Azure AD. They must be managed on-prem 
+
+### Service Principal
+An Azure service principal is an identity created for use with applications, hosted services, and automated tools to access Azure resources.
