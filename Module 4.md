@@ -2,3 +2,10 @@ NIC allows both wired and wireless communications. NIC allows communications bet
 
 While physical networking connects computers through cabling and other hardware, virtual networking extends these capabilities by using software management to connect computers and servers over the Internet
 network administrators new and more efficient options, like the ability to easily modify the network as needs change, without having to switch out or buy more hardware. [Learn More from VMware](https://www.vmware.com/topics/glossary/content/virtual-networking.html#:~:text=Virtual%20networking%20is%20the%20foundation,secure%2C%20and%20modify%20cloud%20resources.)
+
+##### Subnets 
+- Security
+- Traffic Reduction 
+- Easy Administration 
+
+[Learn more from CBT Nuggets](https://www.networkcomputing.com/data-centers/5-subnetting-benefits)
