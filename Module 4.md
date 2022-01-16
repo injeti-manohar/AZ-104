@@ -9,3 +9,9 @@ network administrators new and more efficient options, like the ability to easil
 - Easy Administration 
 
 [Learn more from CBT Nuggets](https://www.networkcomputing.com/data-centers/5-subnetting-benefits)
+
+### vnet 
+
+
+[IP Address for Azure Deployment -- MS Learn](https://docs.microsoft.com/en-us/learn/modules/design-ip-addressing-for-azure/#:~:text=A%20good%20Azure%20IP%20addressing,organization%20flexibility%20in%20its%20network.)
+[Design Vnet for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing) 
