@@ -23,3 +23,6 @@ An Azure service principal is an identity created for use with applications, hos
 For example, you can assign roles to allow adding or changing users, resetting user passwords, managing user licenses, or managing domain names.
 
 Who signs up for Azure AD is global administrator
+
+## Ad Ds Vs Azure AD
+**NTLM** - Windows New Technology LAN Manager (NTLM) is a suite of security protocols offered by Microsoft to authenticate users' identity 
