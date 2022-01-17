@@ -19,3 +19,7 @@ the group is synced from on premises Windows AD they cannot be managed in Azure 
 
 ### Service Principal
 An Azure service principal is an identity created for use with applications, hosted services, and automated tools to access Azure resources.
+
+For example, you can assign roles to allow adding or changing users, resetting user passwords, managing user licenses, or managing domain names.
+
+Who signs up for Azure AD is global administrator
