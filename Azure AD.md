@@ -24,5 +24,11 @@ For example, you can assign roles to allow adding or changing users, resetting u
 
 Who signs up for Azure AD is global administrator
 
+# Active directory
+
+Active Directory Domain Services (AD DS), provides the methods for storing directory data and making this data available to network users and administrators.
+For example, AD DS stores information about user accounts, such as names, passwords, phone numbers, and so on, and enables other authorized users on the same network to access this information
+[Learn more](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+
 ## Ad Ds Vs Azure AD
 **NTLM** - Windows New Technology LAN Manager (NTLM) is a suite of security protocols offered by Microsoft to authenticate users' identity 
