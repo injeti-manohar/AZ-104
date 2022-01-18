@@ -1,3 +1,9 @@
+### Subscription
+
+- why organization need multiple subscription ?
+- [x] Organizations often use multiple Azure subscriptions to avoid per-subscription resource limits and to better manage and govern their Azure resources
+
+
 ### management group
 - Mirror your organisation’s structure
 
