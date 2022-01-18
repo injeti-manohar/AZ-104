@@ -1,5 +1,9 @@
 ### Subscription
 
+A subscription authenticates and authorizes  to use these resources. An Azure subscription links to an Azure account, which in turn is an identity in Azure Active Directory (AD).
+Billing boundary 
+Access control boundary
+
 - why organization need multiple subscription ?
 - [x] Organizations often use multiple Azure subscriptions to avoid per-subscription resource limits and to better manage and govern their Azure resources
 
