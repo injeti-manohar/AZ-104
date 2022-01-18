@@ -32,3 +32,8 @@ For example, AD DS stores information about user accounts, such as names, passwo
 
 ## Ad Ds Vs Azure AD
 **NTLM** - Windows New Technology LAN Manager (NTLM) is a suite of security protocols offered by Microsoft to authenticate users' identity 
+
+
+## terms and concepts
+
+- Trust - trust is a relationship which is established between two domains so that one domain can be authenticated by the () domain controller of other domain. 
