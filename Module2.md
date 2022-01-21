@@ -32,6 +32,12 @@ A Pay-As-You-Go (PAYG) subscription charges you monthly for the services you use
 `Personal free account`
 With a free trial account, you can get started using Azure right away and you won’t be charged until you choose to upgrade to PAYG. Ideal for Learning and exploring Azure.
 
+## Tags 
+> helps Identify and arrange Resources
+
+- Each resource or resource group can have a maximum of 50 tag name/value pairs.
+- Tags applied to the resource group are not inherited by the resources in that resource group.
+
 
 ### management group
 - Mirror your organisation’s structure
