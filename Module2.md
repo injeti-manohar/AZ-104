@@ -38,10 +38,6 @@ With a free trial account, you can get started using Azure right away and you wo
 - Each resource or resource group can have a maximum of 50 tag name/value pairs.
 - Tags applied to the resource group are not inherited by the resources in that resource group.
 
-
-### management group
-- Mirror your organisation’s structure
-
 ### Cost Management and billing
 > Monitor, control and optimise your cloud expenditure
 
@@ -57,6 +53,18 @@ With a free trial account, you can get started using Azure right away and you wo
 -  And you can set a daily scheduled export in CSV format and store the data files in Azure storage. Then, you can access the data from your external system.
 <br> - manage both AWS (small charge) and Azure (free)
      - various connectors also available like power BI
+     
+     --------------
+     
+> Your company is subject to many regulations and compliance rules. They want to ensure each department implements and deploys resources correctly.
+
+## management group
+-  your organization has several subscriptions, you may need a way to efficiently manage access, policies, and compliance for those subscriptions. Azure management groups provide a level of scope above subscriptions `All subscriptions within a management group automatically inherit the conditions applied to the management group`
+-  Mirror your organisation’s structure so that 
+<br>  - Organizational alignment for your Azure subscriptions through custom hierarchies and grouping.
+- Targeting of policies and spend budgets across subscriptions and inheritance down the hierarchies.
+- Compliance and cost reporting by organization (business/teams).
+
 
 ### Azure Policy 
 - help ensure cloud compliance, avoid misconfigurations and practice consistent resource governance
