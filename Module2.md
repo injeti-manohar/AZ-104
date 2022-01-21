@@ -1,9 +1,9 @@
-### Subscription
+## Subscription
 > Decides how resource usage is reported, billed, and paid for.
 
 - Each subscription offers Different Billing Period, Resources and Reporting features.
 
-     *Like in Azure for Student Subscription, You Can't Use AZURE CDN ; While in PAY-AS-GO You can !!*
+ <br>    *Like in Azure for Student Subscription, You Can't Use AZURE CDN ; While in PAY-AS-GO You can !!*
      Also You can't setup Billig alerts in AZ for Student. You can't see the credits remaining from the portal.
      Another example -- FOR Enterprise Agreement You PAY ANNUALLY. while In PAY-AS-GO MONTHLLY
 
@@ -13,6 +13,24 @@
 
 - why organization need multiple subscription ?
 - [x] Organizations often use multiple Azure subscriptions to avoid per-subscription resource limits and to better manage and govern their Azure resources
+<br> Like for Production Env. You Have Enterprise Agreement while for training Purposes, You have Free Trial 
+
+## types of Azure Subscription
+
+`*Enterprise agreements*`
+Any Enterprise Agreement customer can add Azure to their agreement by making an upfront monetary commitment to Azure. That commitment is consumed throughout the year by using any combination of the wide variety of cloud services Azure offers. An Enterprise Agreement provides flexibility to buy cloud services and software licenses under one agreement, with discounts for new licenses and Software Assurance. It's targeted at enterprise-scale organizations. Enterprise agreements have a 99.95% monthly SLA.
+
+<br>`*Reseller*`
+Buy Azure through the Open Licensing program, which provides a simple, flexible way to purchase cloud services from your Microsoft reseller. If you already purchased an Azure in Open license key, activate a new subscription or add more credits now.
+
+`*Partners*`
+Find a Microsoft partner who can design and implement your Azure cloud solution. These partners have the business and technology expertise to recommend solutions that meet the unique needs of your business. Just Like a Cyber Cafe, 
+
+`PAYG`
+A Pay-As-You-Go (PAYG) subscription charges you monthly for the services you used in that billing period. This subscription type is appropriate for a wide range of users, from individuals to small businesses, and many large organizations as well.
+
+`Personal free account`
+With a free trial account, you can get started using Azure right away and you won’t be charged until you choose to upgrade to PAYG. Ideal for Learning and exploring Azure.
 
 
 ### management group
