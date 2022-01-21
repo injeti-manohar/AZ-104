@@ -67,8 +67,18 @@ With a free trial account, you can get started using Azure right away and you wo
 
 
 ### Azure Policy 
+> enforce rules to your resources
+> 
 - help ensure cloud compliance, avoid misconfigurations and practice consistent resource governance
 - Comprehensive compliance view of all your resources
 - Real-time policy enforcement and evaluation
 - Define a scope ; Yes, you may exclude a resource, resource group, subscription or management group from your policy assignment.
 **An Azure Policy as Code workflow makes it possible to manage your policy definitions and assignments as code, control the lifecycle of updating those definitions, and automate the validating of compliance results**
+
+`Use cases`
+- Specify the resource types that your organization can deploy.
+- Specify a set of virtual machine SKUs that your organization can deploy.
+- Restrict the locations your organization can specify when deploying resources.
+- Enforce a required tag and its value.
+- Audit if Azure Backup service is enabled for all Virtual machines.
+
