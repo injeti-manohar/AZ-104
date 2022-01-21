@@ -1,8 +1,16 @@
 ### Subscription
+> Decides how resource usage is reported, billed, and paid for.
 
-A subscription authenticates and authorizes  to use these resources. An Azure subscription links to an Azure account, which in turn is an identity in Azure Active Directory (AD).
-Billing boundary 
-Access control boundary
+- Each subscription offers Different Billing Period, Resources and Reporting features.
+
+     *Like in Azure for Student Subscription, You Can't Use AZURE CDN ; While in PAY-AS-GO You can !!*
+     Also You can't setup Billig alerts in AZ for Student. You can't see the credits remaining from the portal.
+     Another example -- FOR Enterprise Agreement You PAY ANNUALLY. while In PAY-AS-GO MONTHLLY
+
+- A subscription authenticates and authorizes  to use these resources. An Azure subscription links to an Azure account, which in turn is an identity in Azure Active Directory (AD).
+
+- Billing boundary : When Billed, How much can you spend (Free trial Has $200 Credits, PAY-AS-GO -> No limit `unless you create a limit`)
+- Access control boundary : Give, Remove permissions on Subscription level (Hence)
 
 - why organization need multiple subscription ?
 - [x] Organizations often use multiple Azure subscriptions to avoid per-subscription resource limits and to better manage and govern their Azure resources
