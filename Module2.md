@@ -82,3 +82,7 @@ With a free trial account, you can get started using Azure right away and you wo
 - Enforce a required tag and its value.
 - Audit if Azure Backup service is enabled for all Virtual machines.
 
+----------------
+
+> Securing your Azure resources, such as virtual machines, websites, networks, and storage, is a critical function for any organization using the cloud. 
+`Basics Principle Of Security : Trust No One ! --> No Extra Permissions to anyone.`
