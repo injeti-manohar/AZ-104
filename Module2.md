@@ -37,12 +37,20 @@ With a free trial account, you can get started using Azure right away and you wo
 - Mirror your organisation’s structure
 
 ### Cost Management and billing
-- Alerts -- You can configure alerts based on your actual cost or forecasted cost to ensure that your spend is within your organizational spend limit
-     
- - [x] only notification send and resources are not terminated
-- Monitor -- understand where costs originated within your organization. It's also useful to know how much money your services cost
-- manage both AWS (small charge) and Azure (free)
-- various connectors also available like power BI
+> Monitor, control and optimise your cloud expenditure
+
+- `cost analysis` : Reports in Cost Management show the usage-based costs consumed by Azure services and third-party Marketplace offerings
+
+- ` Alerts` -- You can configure alerts based on your actual cost or forecasted cost to ensure that your spend is within your organizational spend limit  
+<br>
+- [x] only notification send and resources are not terminated
+
+- `Recommendations`: It shows how you can optimize and improve efficiency by identifying idle and underutilized resources. Or, they can show less expensive resource options. When you act on the recommendations, you change the way you use your resources to save money. To act, you first view cost optimization recommendations to view potential usage inefficiencies. Next, you act on a recommendation to modify your Azure resource use to a more cost-effective option. Then you verify the action to make sure that the change you make is successful.
+
+- `Monitor` -- understand where costs originated within your organization. It's also useful to know how much money your services cost
+-  And you can set a daily scheduled export in CSV format and store the data files in Azure storage. Then, you can access the data from your external system.
+<br> - manage both AWS (small charge) and Azure (free)
+     - various connectors also available like power BI
 
 ### Azure Policy 
 - help ensure cloud compliance, avoid misconfigurations and practice consistent resource governance
