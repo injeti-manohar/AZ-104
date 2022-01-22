@@ -15,6 +15,10 @@ It help maintain the balance between what is needed versus what is delivered
 Each zone is composed of one or more datacenters equipped with independent power, cooling, and networking infrastructure.
 You can design resilient solutions by using Azure services that use availability zones. Co-locate your compute, storage, networking, and data resources across an availability zone, and replicate this arrangement in other availability zones
 
+**Region Pair**
+
+![](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones-region-geography.png)
+
 ## Subscription
 > Decides how resource usage is reported, billed, and paid for.
 
