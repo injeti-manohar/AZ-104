@@ -1,7 +1,9 @@
 **Why compliance ??**
 [According to lucidchart](https://www.lucidchart.com/blog/cloud-governance-framework) helps maintain cost savings and meet company's need with cloud in a structured way.
+
 [MS Docs](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/1-introduction) says it's a important concern for company's migrating to cloud. 
 
+![](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/media/methodology.png)
 
 ## Subscription
 > Decides how resource usage is reported, billed, and paid for.
