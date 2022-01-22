@@ -9,6 +9,8 @@ It help maintain the balance between what is needed versus what is delivered
 
 ## Region
 
+zone-redundant service	An Azure service that supports availability zones, and that enables resources to be replicated or distributed across zones automatically.
+
 ![](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones.png)
 
 **Availability zones**
