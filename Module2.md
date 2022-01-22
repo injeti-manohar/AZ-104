@@ -7,6 +7,10 @@ It help maintain the balance between what is needed versus what is delivered
 
 ![](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/media/methodology.png)
 
+## Region
+
+![](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones.png)
+
 ## Subscription
 > Decides how resource usage is reported, billed, and paid for.
 
