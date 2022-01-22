@@ -9,7 +9,9 @@ It help maintain the balance between what is needed versus what is delivered
 
 ## Region
 
-zone-redundant service	An Azure service that supports availability zones, and that enables resources to be replicated or distributed across zones automatically.
+`zone-redundant service` :- An Azure service that supports availability zones, and that enables resources to be replicated or distributed across zones automatically.
+
+`zonal service` :-	An Azure service that supports availability zones, and that enables a resource to be deployed to a specific, self-selected availability zone to achieve more stringent latency or performance requirements
 
 ![](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones.png)
 
@@ -17,7 +19,7 @@ zone-redundant service	An Azure service that supports availability zones, and th
 Each zone is composed of one or more datacenters equipped with independent power, cooling, and networking infrastructure.
 You can design resilient solutions by using Azure services that use availability zones. Co-locate your compute, storage, networking, and data resources across an availability zone, and replicate this arrangement in other availability zones
 
-**Region Pair**
+** Cross Region Replication (Earlier Region Pair)**
 
 ![](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones-region-geography.png)
 
