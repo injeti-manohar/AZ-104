@@ -11,6 +11,9 @@ It help maintain the balance between what is needed versus what is delivered
 
 ![](https://docs.microsoft.com/en-us/azure/availability-zones/media/availability-zones.png)
 
+**Availability zones**
+Each zone is composed of one or more datacenters equipped with independent power, cooling, and networking infrastructure
+
 ## Subscription
 > Decides how resource usage is reported, billed, and paid for.
 
