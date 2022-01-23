@@ -32,3 +32,6 @@ The resource group stores metadata about the resources. When you specify a locat
 Except in global resources like Azure Content Delivery Network, Azure DNS, Azure Traffic Manager, and Azure Front Door, if a resource group's region is temporarily unavailable, you can't update resources in the resource group because the metadata is unavailable. The resources in other regions will still function as expected, but you can't update them
 
 - You can apply tags to a resource group. The resources in the resource group don't inherit those tags.
+
+## Resource Locks
+The power of azure lies also the ease with which they can be deleted. An over-zealous or careless administrator can accidentally erase months of work with a few steps. Resource Manager locks allow organizations to put a structure in place that prevents the accidental deletion of resources in Azure.
