@@ -22,7 +22,9 @@ Define the dependencies between resources so they're deployed in the correct ord
 
 ### Resource Groups
 - All the resources in your resource group should share the same lifecycle. 
-- You can move a resource from one resource group to another group. For more information, see Move resources to new resource group or subscription
+- You can move a resource from one resource group to another group. For more information, 
+- immutable deployments are not supported in a resource group. 
+- No limit for Resouces -- Deployments are incremental; if a resource group contains two web apps and you decide to deploy a third, the existing web apps will not be removed
 > You may be wondering, "Why does a resource group need a location? And, if the resources can have different locations than the resource group, why does the resource group location matter at all?"
 
 The resource group stores metadata about the resources. When you specify a location for the resource group, you're specifying where that metadata is stored. For compliance reasons, you may need to ensure that your data is stored in a particular region.
