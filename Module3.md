@@ -16,6 +16,10 @@ Define the dependencies between resources so they're deployed in the correct ord
 
 > declarative syntax - Syntax that lets you state "Here is what I intend to create" without having to write the sequence of programming commands to create it. The Resource Manager template is an example of declarative syntax. In the file, you define the properties for the infrastructure to deploy to Azure
 
+## terminology
+
+`Resouces provider ` -- Microsoft.Compute, which supplies the virtual machine resource, Microsoft.Storage, which supplies the storage account resource
+
 ### Resource Groups
 - All the resources in your resource group should share the same lifecycle. 
 - You can move a resource from one resource group to another group. For more information, see Move resources to new resource group or subscription
