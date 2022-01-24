@@ -63,6 +63,6 @@ Azure Firewall is a `PaaS service` ---> managed, cloud-based network security se
 | Can be attached to subnet or NIC card | |
 
 
-
-
+## Azure DNS
+Azure DNS enables you to host your DNS records for your domains on Azure infrastructure
 
