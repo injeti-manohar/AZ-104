@@ -76,3 +76,7 @@ If You own any domain name you can add that domain to add your active directory 
 ## DNS ZONE 
 A DNS zone hosts the DNS records for a domain. So, to start hosting your domain in Azure DNS, you need to create a DNS zone for that domain name. Each DNS record for your domain is then created inside this DNS zone.
 
+- You do not have to own a domain name to create a DNS zone with that domain name in Azure DNS. However, you do need to own the domain to configure the domain
+- Root/Parent domain is registered at the registrar and pointed to Azure NS.
+- Child domains are registered in AzureDNS directly
+
