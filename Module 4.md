@@ -39,3 +39,13 @@ network administrators new and more efficient options, like the ability to easil
 - `Private IP addresses`: Used for communication within an Azure virtual network (VNet), and your on-premises network, when you use a VPN gateway or ExpressRoute circuit to extend your network to Azure.
 - `Public IP addresses`: Used for communication with the Internet, including Azure public-facing services.
 
+> whenever you stop and start the VM IP address associated with that Virtual Machine changes this is known as `dynamic IP addresses`
+
+You can also associate a static IP address for following use cases:
+
+- DNS name resolution, where a change in the IP address would require updating host records.
+- IP address-based security models that require apps or services to have a static IP address.
+- TSL/SSL certificates linked to an IP address.
+- Firewall rules that allow or deny traffic using IP address ranges.
+- Role-based VMs such as Domain Controllers and DNS servers
+
