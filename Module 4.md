@@ -65,4 +65,10 @@ Azure Firewall is a `PaaS service` ---> managed, cloud-based network security se
 
 ## Azure DNS
 Azure DNS enables you to host your DNS records for your domains on Azure infrastructure
+> Whenever you create a new user in Azure active directory the user requires your domain name to sign into the portal. 
 
+### Initial domain
+When you create an Azure subscription, an Azure AD domain is automatically created. This instance of the domain has an initial domain name in the form `domainname.onmicrosoft.com` like `ananayojha@gmail.com.onmicrosoft.com`
+
+### custom domain
+If You own any domain name you can add that domain to add your active directory A custom domain name which simplifies the user sign-on experience. Like 
