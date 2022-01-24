@@ -51,13 +51,16 @@ You can also associate a static IP address for following use cases:
 
 ## Azure Firewalls
 > Your company is spread across multiple Azure regions. The networking infrastructure includes multiple virtual networks and connections to an on-premises network. The IT staff is concerned about malicious actors trying to infiltrate the network.
-Azure Firewall is a managed, cloud-based network security service
+Azure Firewall is a `PaaS service` ---> managed, cloud-based network security service
 
 `NSG VS AZURE FIREWALL`
 
 | NSG | AZ FIREWALL |
 |------|-------|
 | Stateless | stateful | 
+| `Layer 4 (network)` i.e only concerned with source and destination ports and protocols | `(layer 7 + layer 4)` source protocol and the packets | 
+| Can be attached to subnet or NIC card | |
+
 
 
 
