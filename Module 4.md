@@ -49,3 +49,8 @@ You can also associate a static IP address for following use cases:
 - Firewall rules that allow or deny traffic using IP address ranges.
 - Role-based VMs such as Domain Controllers and DNS servers
 
+## Azure Firewalls
+> Your company is spread across multiple Azure regions. The networking infrastructure includes multiple virtual networks and connections to an on-premises network. The IT staff is concerned about malicious actors trying to infiltrate the network.
+
+
+
