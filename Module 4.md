@@ -31,5 +31,7 @@ network administrators new and more efficient options, like the ability to easil
 
 - [Design Vnet for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing) 
 
-### Public IP Address Azure 
+### Public IP Address Azure
+- You can assign IP addresses to Azure resources to communicate with other Azure resources, your on-premises network, and the Internet 
 -  You cannot change the SKU after the public IP address is created
+
