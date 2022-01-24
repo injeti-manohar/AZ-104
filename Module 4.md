@@ -35,3 +35,7 @@ network administrators new and more efficient options, like the ability to easil
 - You can assign IP addresses to Azure resources to communicate with other Azure resources, your on-premises network, and the Internet 
 -  You cannot change the SKU after the public IP address is created
 
+**Types of IP addresses** 
+- `Private IP addresses`: Used for communication within an Azure virtual network (VNet), and your on-premises network, when you use a VPN gateway or ExpressRoute circuit to extend your network to Azure.
+- `Public IP addresses`: Used for communication with the Internet, including Azure public-facing services.
+
