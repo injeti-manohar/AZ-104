@@ -71,4 +71,8 @@ Azure DNS enables you to host your DNS records for your domains on Azure infrast
 When you create an Azure subscription, an Azure AD domain is automatically created. This instance of the domain has an initial domain name in the form `domainname.onmicrosoft.com` like `ananayojha@gmail.com.onmicrosoft.com`
 
 ### custom domain
-If You own any domain name you can add that domain to add your active directory A custom domain name which simplifies the user sign-on experience. Like 
+If You own any domain name you can add that domain to add your active directory A custom domain name which simplifies the user sign-on experience. Like
+
+## DNS ZONE 
+A DNS zone hosts the DNS records for a domain. So, to start hosting your domain in Azure DNS, you need to create a DNS zone for that domain name. Each DNS record for your domain is then created inside this DNS zone.
+
