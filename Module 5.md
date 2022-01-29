@@ -18,3 +18,7 @@ Apply NSG at one vnet ---> vnet (no NSG here rule same applies)
 `ExpressRoute` - Use ExpressRoute to set up a fast, private connection to Microsoft cloud services from your on-premises infrastructure or co-location facility. You can create a connection between your on-premises network and the Microsoft cloud in three different ways, CloudExchange Co-location, Point-to-point Ethernet Connection, and Any-to-any (IPVPN) Connection. Connectivity providers can offer one or more connectivity models. You can work with your connectivity provider to pick the model that works best for you.
 
 `VIrtual WAN` - Create a virtual WAN to get started. Next, create sites in your virtual WAN and connect them to virtual hubs in your preferred Azure regions. Within your virtual WAN, you can also connect hubs to your existing virtual networks.
+
+- Basic virtual WAN supports Site-to-Site VPN connectivity, branch-to-branch and branch-to-VNet connectivity in a single hub.
+Standard Virtual WAN supports any-to-any connectivity (Site-to-Site VPN, VNET, ExpressRoute, Point-to-site end points) in a single hub as well as across hubs.
+-A virtual hub is a Microsoft-managed virtual network. The hub contains various service endpoints to enable connectivity from your on-premises network (vpnsite). 
