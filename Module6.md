@@ -12,3 +12,21 @@ Within Azure, there are additional system routes. Azure will create these routes
 - Use a `virtual network gateway` to send encrypted traffic between Azure and on-premises over the internet and to send encrypted traffic between Azure networks. A virtual network gateway contains routing tables and gateway services.
 
 - `Virtual network endpoints` provides a direct connection to your Azure resources. This connection restricts the flow of traffic: your Azure virtual machines can access your storage account directly from the private address space and deny access from a public virtual machine. As you enable service endpoints, Azure creates routes in the route table to direct this traffic.
+
+**Why Custom Routes (User Defined Routes)**
+example, you might want to route traffic through an NVA or through a firewall from partners and others. This control is possible with custom routes.
+
+*Two methods for this*
+1. create a `user-defined route` :-
+- [x] traffic flow via a firewall to your subnet 
+For example, you might have a network with two subnets and want to add a virtual machine in the perimeter network to be used as a firewall. You create a user-defined route so that traffic passes through the firewall and doesn't go directly between the subnets.
+Specify next hop type - 
+- NVA 
+- vnet gateway, internet or
+- None 
+
+or use 
+2. `Border Gateway Protocol (BGP)` to exchange routes between Azure and on-premises networks
+As we know BGP is a standard routing protocol used by internet and other autonomous systems.
+
+So, A network gateway in your on-premises network can exchange routes with a virtual network gateway in Azure by using BGP. BGP 
