@@ -48,3 +48,4 @@ Backend pool With Load Balancer, you can use availability sets (SLA OF 99.95)and
 ### Layer 7 LB
  - Layer 7 load balancers base their routing decisions on various characteristics of the HTTP header and on the actual contents of the message, such as the URL, the type of data (text, video, graphics), or information in a cookie. It can determine what type of data (video, text, and so on) a client is requesting, you don’t have to duplicate the same data on all of the load-balanced servers.
 - powerful enough that the savings in computational cost from Layer 4 load balancing are not large enough to outweigh the benefits of greater flexibility and efficiency from Layer 7 load balancing. 
+*Source* : [Nginx](https://www.nginx.com/resources/glossary/layer-4-load-balancing/?__cf_chl_captcha_tk__=J.wHM4ZZIPckeYhRZqZkDzK7pokpeDAq4xyOiYkew5A-1643538508-0-gaNycGzNCL0)
