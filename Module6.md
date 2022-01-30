@@ -14,7 +14,7 @@ Within Azure, there are additional system routes. Azure will create these routes
 - `Virtual network endpoints` provides a direct connection to your Azure resources. This connection restricts the flow of traffic: your Azure virtual machines can access your storage account directly from the private address space and deny access from a public virtual machine. As you enable service endpoints, Azure creates routes in the route table to direct this traffic.
 
 **Why Custom Routes (User Defined Routes)**
-example, you might want to route traffic through an NVA or through a firewall from partners and others. This control is possible with custom routes.
+NVA helps network virtual appliance (NVA) to help secure and monitor traffic so for example, you might want to route traffic through an NVA or through a firewall from partners and others. This control is possible with custom routes.
 
 *Two methods for this*
 1. create a `user-defined route` :-
