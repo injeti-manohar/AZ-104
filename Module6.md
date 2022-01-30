@@ -38,4 +38,9 @@ As we know BGP is a standard routing protocol used by internet and other autonom
 
 NVA starts acting as a router. If traffic is routed through an NVA, the NVA becomes a critical piece of your infrastructure. Any NVA failures will directly affect the ability of your services to communicate. It's important to include a highly available architecture in your NVA deployment.
 
-So, A network gateway in your on-premises network can exchange routes with a virtual network gateway in Azure by using BGP. BGP 
+So, A network gateway in your on-premises network can exchange routes with a virtual network gateway in Azure by using BGP. 
+
+### Azure Load Balancer
+> Many apps need to be resilient to failure and scale easily when demand increases. You can address those needs by using Azure Load Balancer.
+
+Backend pool With Load Balancer, you can use availability sets (SLA OF 99.95)and availability zones (99.99) to ensure that virtual machines are always available
