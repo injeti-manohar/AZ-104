@@ -60,4 +60,5 @@ by default uses round Robin but you can also specify session stickiness
 - Autoscaling, to dynamically adjust capacity as your web traffic load change
 
 `URL path based routing` -- docs.microsoft.com/learn or docs.microsoft.com/azure
+
 `Multi site routing` -- register multiple DNS names (CNAMEs) for the IP address of the Application Gateway, specifying the name of each site. 
