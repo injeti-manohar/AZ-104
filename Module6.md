@@ -34,4 +34,8 @@ or use
 2. `Border Gateway Protocol (BGP)` to exchange routes between Azure and on-premises networks
 As we know BGP is a standard routing protocol used by internet and other autonomous systems.
 
+### NVA FOR HIGH AVAILABILITY
+
+NVA starts acting as a router. If traffic is routed through an NVA, the NVA becomes a critical piece of your infrastructure. Any NVA failures will directly affect the ability of your services to communicate. It's important to include a highly available architecture in your NVA deployment.
+
 So, A network gateway in your on-premises network can exchange routes with a virtual network gateway in Azure by using BGP. BGP 
