@@ -54,3 +54,10 @@ Subnets and Virtual Networks must exist in the same Azure Region or Region Pair 
 Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing and machine learning
 
 > Entirely in portal checks slides
+
+#### Azure File sync
+
+• Multi-site access and sync
+Azure File Sync is ideal for distributed access scenarios. For each of your offices, you can provision a local Windows Server as part of your Azure File Sync deployment. Changes made to a server in one office automatically sync to the servers in all other offices.
+
+• Reduce your on-premises backup spending by taking centralized backups in the cloud using Azure Backup. Azure Files SMB shares have native snapshot capabilities, and the process can be automated using Azure Backup to schedule your backups and manage their retention. 
