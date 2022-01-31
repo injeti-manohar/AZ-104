@@ -18,3 +18,25 @@ Get a URL for your data in Azure Storage hence making it  accessible from anywhe
 -`OBJECT STORAGE --> Blobs` -- DR, BACKUPS, unstructered data
 - `files -- Block storage` -- > Files are fully managed file shares in the cloud
 - `structed data` -- Structured data includes Tables, Cosmos DB, and Azure SQL DB. Tables are a key/value, autoscaling NoSQL store. Cosmos DB is a globally distributed database service. Azure SQL DB is a fully managed database-as-a-service built on SQL.
+
+##### tiers 
+`standard`-- HDD
+`PREMIUM` -- SSD
+
+### Azure storage service
+
+✓ `Blobs` : Blob storage is ideal for:
+
+- Serving images or documents directly to a browser.
+- Storing files for distributed access.
+- Streaming video and audio.
+- storing data for backup and restore, disaster recovery, and archiving.
+- Storing data for analysis by an on-premises or Azure-hosted service.
+
+✓ `Azure Table storage` is now part of Azure Cosmos DB
+
+✓ `queues` Queues are used to store lists of messages to be processed asynchronously.
+
+✓ `Azure Files` enables you to set up highly available network file shares that can be accessed by using the standard Server Message Block (SMB) protocol. That means that multiple VMs can share the same files with both read and write access
+- developers stored certain scripts , configuration files 
+- Many on-premises applications use file shares. This feature makes it easier to migrate those applications that share data to Azure
