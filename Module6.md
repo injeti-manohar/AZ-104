@@ -1,5 +1,18 @@
 # network traffic management 
 
+Like you are a multiplex admin. With various movies let consider 2 Scenerio
+1. After being allowed by security guard, you don't know which stairs to take 
+2. There's sign boards and multiplex staff  which directs audience's traffic. 
+
+Similarly traffic management inside 💠 vnet is important for Chaos free environment.
+
+## module overview
+
+#### Network routing and endpoints - These define paths to take.
+
+#### Azure Load Balancer -  the staff which tells you which lift to take
+
+#### Application Gateway - 3 Halls in 1 floor, a/c to the ticket you have on which hall you should go 
 
 
 ![](https://docs.microsoft.com/en-us/learn/modules/control-network-traffic-flow-with-routes/media/2-system-routes-subnets-internet.svg)
