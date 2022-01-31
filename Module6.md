@@ -55,13 +55,7 @@ The rule addition provides improved security by fully removing public internet a
 - Protection against data exfiltration for Azure resources
 
 ![](https://azurecomcdn.azureedge.net/cvt-885d1884dadda7f35e64ffbc842539418094940580f1c467bf9c7234b746cb2b/images/page/services/private-link/image-2.png)
-
-
-### NVA FOR HIGH AVAILABILITY
-
-NVA starts acting as a router. If traffic is routed through an NVA, the NVA becomes a critical piece of your infrastructure. Any NVA failures will directly affect the ability of your services to communicate. It's important to include a highly available architecture in your NVA deployment.
-
-So, A network gateway in your on-premises network can exchange routes with a virtual network gateway in Azure by using BGP. 
+ 
 
 ### Azure Load Balancer
 > Many apps need to be resilient to failure and scale easily when demand increases. You can address those needs by using Azure Load Balancer.
