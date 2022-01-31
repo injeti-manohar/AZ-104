@@ -47,3 +47,6 @@ You can choose to replicate your data within the same data center, across zonal 
 #### Securing Endpoints
 Firewalls and Virtual Networks restricts access to the Storage Account from specific Subnets on Virtual Networks or public IPs.
 Subnets and Virtual Networks must exist in the same Azure Region or Region Pair as the Storage Account
+
+#### Blobs
+Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing and machine learning
