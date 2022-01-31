@@ -35,6 +35,18 @@ or use
 2. `Border Gateway Protocol (BGP)` to exchange routes between Azure and on-premises networks
 As we know BGP is a standard routing protocol used by internet and other autonomous systems.
 
+### Service Endpoints
+
+The rule addition provides improved security by fully removing public internet access to resources and allowing traffic only from your virtual network.
+
+• **Improved security for your Azure service resources** - use private ip of your vm and attach a service endpoint policy to provide 
+
+• **Optimal routing for Azure service traffic from your virtual network** - 
+
+• **less management** - There are no Network Address Translation (NAT) or gateway devices required to set up the service endpoints. You can configure service endpoints through a simple click on a subnet. There's no additional overhead to maintaining the endpoints 
+
+**There's no additional charge for using service endpoints. No limits for no. Of endpoints**
+
 ### NVA FOR HIGH AVAILABILITY
 
 NVA starts acting as a router. If traffic is routed through an NVA, the NVA becomes a critical piece of your infrastructure. Any NVA failures will directly affect the ability of your services to communicate. It's important to include a highly available architecture in your NVA deployment.
