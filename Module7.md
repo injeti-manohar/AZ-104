@@ -40,3 +40,10 @@ Get a URL for your data in Azure Storage hence making it  accessible from anywhe
 ✓ `Azure Files` enables you to set up highly available network file shares that can be accessed by using the standard Server Message Block (SMB) protocol. That means that multiple VMs can share the same files with both read and write access
 - developers stored certain scripts , configuration files 
 - Many on-premises applications use file shares. This feature makes it easier to migrate those applications that share data to Azure
+
+#### Azure data Replication 
+You can choose to replicate your data within the same data center, across zonal data centers within the same region, and even across regions. Replication ensures that your storage account meets the Service-Level Agreement (SLA) for Storage even in the face of failures.
+
+#### Securing Endpoints
+Firewalls and Virtual Networks restricts access to the Storage Account from specific Subnets on Virtual Networks or public IPs.
+Subnets and Virtual Networks must exist in the same Azure Region or Region Pair as the Storage Account
