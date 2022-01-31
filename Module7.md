@@ -52,3 +52,5 @@ Subnets and Virtual Networks must exist in the same Azure Region or Region Pair 
 
 #### Blobs
 Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing and machine learning
+
+> Entirely in portal checks slides
