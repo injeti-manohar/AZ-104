@@ -1,5 +1,5 @@
 # Azure Storage
-
+> company has documents, spreadsheets, and videos. This information needs to be securely shared across the organization and across geographical areas. The data must be quickly recovered if there is a datacenter failure
 
 
 An Azure storage account contains all of your Azure Storage data objects, including blobs, file shares, queues, tables, and disks. The storage account provides a unique namespace for your Azure Storage data that's accessible from anywhere in the world over HTTP or HTTPS. Data in your storage account is durable and highly available, secure, and massively scalable
