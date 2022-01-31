@@ -16,6 +16,8 @@ Within Azure, there are additional system routes. Azure will create these routes
 
 **Why Custom Routes (User Defined Routes)**
 
+When it's uses with an NVA it protects against `data exfiltration` where any bad person unauthorized data transfer from your network.
+
 NVA helps network virtual appliance (NVA) to help secure and monitor traffic 
 - You can use an NVA to filter traffic inbound to a virtual network, to block malicious requests, and to block requests made from unexpected resources.
 so for example, you might want to route traffic through an NVA or through a firewall from partners and others. This control is possible with custom routes.
