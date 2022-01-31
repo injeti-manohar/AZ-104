@@ -47,6 +47,16 @@ The rule addition provides improved security by fully removing public internet a
 
 **There's no additional charge for using service endpoints. No limits for no. Of endpoints**
 
+### Private link 
+> 1 to 1 connection :- Private access to services hosted on the Azure platform, keeping your data on the Microsoft network
+
+- Connect privately to services running in other Azure regions. Private Link is global and has no regional restrictions. connect across `AAD tenants`
+- Integration with on-premises and peered networks
+- Protection against data exfiltration for Azure resources
+
+![](https://azurecomcdn.azureedge.net/cvt-885d1884dadda7f35e64ffbc842539418094940580f1c467bf9c7234b746cb2b/images/page/services/private-link/image-2.png)
+
+
 ### NVA FOR HIGH AVAILABILITY
 
 NVA starts acting as a router. If traffic is routed through an NVA, the NVA becomes a critical piece of your infrastructure. Any NVA failures will directly affect the ability of your services to communicate. It's important to include a highly available architecture in your NVA deployment.
