@@ -55,6 +55,10 @@ The rule addition provides improved security by fully removing public internet a
 - Protection against data exfiltration for Azure resources
 
 ![](https://azurecomcdn.azureedge.net/cvt-885d1884dadda7f35e64ffbc842539418094940580f1c467bf9c7234b746cb2b/images/page/services/private-link/image-2.png)
+
+### Private link vs Service Endpoints
+
+![](https://github.com/Ananyojha/spare-images/raw/main/Screenshot_20220131-125621.png)
  
 
 ### Azure Load Balancer
