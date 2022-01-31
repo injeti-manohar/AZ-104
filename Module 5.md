@@ -22,3 +22,9 @@ Apply NSG at one vnet ---> vnet (no NSG here rule same applies)
 - Basic virtual WAN supports Site-to-Site VPN connectivity, branch-to-branch and branch-to-VNet connectivity in a single hub.
 Standard Virtual WAN supports any-to-any connectivity (Site-to-Site VPN, VNET, ExpressRoute, Point-to-site end points) in a single hub as well as across hubs.
 -A virtual hub is a Microsoft-managed virtual network. The hub contains various service endpoints to enable connectivity from your on-premises network (vpnsite). 
+
+### NVA FOR HIGH AVAILABILITY
+
+NVA starts acting as a router. If traffic is routed through an NVA, the NVA becomes a critical piece of your infrastructure. Any NVA failures will directly affect the ability of your services to communicate. It's important to include a highly available architecture in your NVA deployment.
+
+So, A network gateway in your on-premises network can exchange routes with a virtual network gateway in Azure by using BGP.
