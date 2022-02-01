@@ -61,3 +61,9 @@ Massively scalable and secure object storage for cloud-native workloads, archive
 Azure File Sync is ideal for distributed access scenarios. For each of your offices, you can provision a local Windows Server as part of your Azure File Sync deployment. Changes made to a server in one office automatically sync to the servers in all other offices.
 
 • Reduce your on-premises backup spending by taking centralized backups in the cloud using Azure Backup. Azure Files SMB shares have native snapshot capabilities, and the process can be automated using Azure Backup to schedule your backups and manage their retention. 
+
+#### Storage Explorer 
+Free tool to conveniently manage your Azure cloud storage resources from your desktop. For all OS (windows, MacOS, linux)
+- Accessible, intuitive, and feature-rich graphical user interface (GUI) for full management of cloud storage resources
+- Upload, download, and manage Azure Storage blobs, files, queues, and tables, as well as Azure Data Lake Storage entities and Azure managed disks. Configure storage permissions and access controls, tiers, and rules.
+- Manage your storage accounts in multiple subscriptions across all Azure regions, Azure Stack, and Azure Government.
