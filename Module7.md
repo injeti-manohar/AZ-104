@@ -67,3 +67,7 @@ Free tool to conveniently manage your Azure cloud storage resources from your de
 - Accessible, intuitive, and feature-rich graphical user interface (GUI) for full management of cloud storage resources
 - Upload, download, and manage Azure Storage blobs, files, queues, and tables, as well as Azure Data Lake Storage entities and Azure managed disks. Configure storage permissions and access controls, tiers, and rules.
 - Manage your storage accounts in multiple subscriptions across all Azure regions, Azure Stack, and Azure Government.
+
+#### Azcopy
+- AzCopy is a command-line utility that you can use to copy blobs or files to or from a storage account
+- By using Azure Active Directory, you can provide credentials once instead of having to append a SAS token to each command.
