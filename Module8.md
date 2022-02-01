@@ -25,4 +25,13 @@ So, works like your Datacentre on cloud.
 
 ## lesson 2 : VM AVAILABLITY
 
+#### maintance vs downtime
+As an Azure administrator you must be prepared for planned and unplanned failures
+
+##### unplanned hardware failures - 
+When azure finds any physical infra of your VM is falling, there's unplanned hardware maintenance event. Azure uses Live Migration technology to migrate the Virtual Machines from the failing hardware to a healthy physical machine.
+- this only pauses the Virtual Machine for a short time, 
+
+
+
 
