@@ -18,6 +18,7 @@ So, works like your Datacentre on cloud.
 
 ### virtual Machine planning
  > Gi to portal check slides. Create a WINDOW IN PORTAL & linux (IN CLOUD SHELL) VM
+[USE MS DOCS FOR EXPLAINING](https://docs.microsoft.com/en-us/learn/modules/configure-virtual-machines/3-plan) 
 
 ### VM CONNECTION SLIDE NO 11 
 > CONNECT TO WINDOWS USING RDP & LINUX USING CLOUD SHELL
