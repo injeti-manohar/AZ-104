@@ -64,3 +64,15 @@ Each virtual machine in an availability set is placed in one update domain and o
 ⏫ Here is shown how a Availability set works, 2 VM in Availability set are in 2 diff racks hence diff `fault domain` 
 
 > Please note that Placing your virtual machines into an availability set does not protect your application from operating system or application-specific failures. For that, you need to review other disaster recovery and backup techniques
+
+💪 WHAT IF ENTIRE DATA CENTRE GOES DOWN ?
+
+### Availability Zones
+Usually within a region, azure has 3 or more Datacentres i.e 3 or more Availability Zones
+- Each zone is made up of one or more datacenters equipped with independent power, cooling, and networking
+
+Azure services that support Availability Zones fall into two categories:
+
+- `Zonal services`. Pins the resource to a specific zone (for example, virtual machines, managed disks, Standard IP addresses).
+
+- `Zone-redundant` services. Platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
