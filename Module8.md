@@ -41,4 +41,13 @@ Microsoft have their internal update calendar.
 - So customers get best experience
 - Most of these updates are performed without any impact upon your Virtual Machines or Cloud Services.
 
+> To prevent from data centre level failures we have -- 
 
+### Availability Sets 
+- prevents your application from data centre level failures
+- Azure ensures that the VMs you place within an Availability Set run across multiple physical servers, compute racks, storage units, and network switches. If a hardware or Azure software failure occurs, only a subset of your VMs are impacted. Your application stays up and continues to be available to your customers.
+
+> So how you ensure uptime
+
+- by deploying more than 1 VM across Availability Zones 
+- VM CAN ONLY BE ADDED IN A AVAILABLITY ZONE AT TIME OF CREATION.... NOT AFTER THAT
