@@ -49,5 +49,5 @@ Microsoft have their internal update calendar.
 
 > So how you ensure uptime
 
-- by deploying more than 1 VM across Availability Zones 
-- VM CAN ONLY BE ADDED IN A AVAILABLITY ZONE AT TIME OF CREATION.... NOT AFTER THAT
+- by deploying more than 1 VM across Availability SETS 
+- VM CAN ONLY BE ADDED IN A AVAILABLITY SET AT TIME OF CREATION.... NOT AFTER THAT
