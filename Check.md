@@ -11,7 +11,10 @@ Name = “Web-Server”
 } } }
 ```
 
-
+**Powershell Command for IIS**
+```
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+```
 
 
 
