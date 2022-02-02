@@ -51,3 +51,16 @@ Microsoft have their internal update calendar.
 
 - by deploying more than 1 VM across Availability SETS 
 - VM CAN ONLY BE ADDED IN A AVAILABLITY SET AT TIME OF CREATION.... NOT AFTER THAT
+
+### Update and fault domains
+
+Each virtual machine in an availability set is placed in one update domain and one fault domain
+
+- `UPDATE DOMAIN` -- a set of virtual machines and associated physical hardware that can be updated and rebooted at the same time
+- `FAULT DOMAIN` -- A fault domain defines a group of virtual machines that share a common set of hardware, switches, that share a single point of failure.
+
+![](https://docs.microsoft.com/en-us/learn/wwl-azure/configure-virtual-machine-availability/media/update-fault-domains-c1ceee00.png)
+
+⏫ Here is shown how a Availability set works, 2 VM in Availability set are in 2 diff racks hence diff `fault domain` 
+
+> Please note that Placing your virtual machines into an availability set does not protect your application from operating system or application-specific failures. For that, you need to review other disaster recovery and backup techniques
