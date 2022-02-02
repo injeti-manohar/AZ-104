@@ -76,3 +76,29 @@ Azure services that support Availability Zones fall into two categories:
 - `Zonal services`. Pins the resource to a specific zone (for example, virtual machines, managed disks, Standard IP addresses).
 
 - `Zone-redundant` services. Platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
+
+ > To make sure your application is always available, 
+
+### vertical and horizontal scaling
+
+#### vertical scaling -- 
+means increasing or decreasing virtual machine sizes 
+
+- Vertical scaling makes the virtual machines more (scale up) or less (scale down) powerful. Vertical scaling can be useful when:
+
+`Example` -- 
+ - A service built on virtual machines is under-utilized (for example at weekends). Reducing the virtual machine size can reduce monthly costs.
+- Increasing virtual machine size to cope with larger demand without creating additional virtual machines
+
+`but resizing makes vm to restart`
+
+#### Horizontal Scaling
+Here you add similar machines or remove them referred to as scale out and scale in .
+
+> If you want you can also configure auto scaling of vm using
+
+### VM SCALE SETS 
+- deploy and manage a set of VMs of same size and configuration.
+- As demand goes up more virtual machine instances can be added. As demand goes down virtual machines instances can be removed. The process can be manual or automated or a combination of both.
+- can be attached to azure load balancer or Application gateway as backend 
+
