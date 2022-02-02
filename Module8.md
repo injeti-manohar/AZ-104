@@ -32,6 +32,13 @@ As an Azure administrator you must be prepared for planned and unplanned failure
 When azure finds any physical infra of your VM is falling, there's unplanned hardware maintenance event. Azure uses Live Migration technology to migrate the Virtual Machines from the failing hardware to a healthy physical machine.
 - this only pauses the Virtual Machine for a short time, 
 
+#### unexpected downtimes
+when the hardware or the physical infrastructure for the virtual machine fails unexpectedly. I.e any rack level failure occurs
+- When detected, the Azure platform automatically migrates (heals) your virtual machine to a healthy physical machine in the same datacenter. During the healing procedure, virtual machines experience downtime (reboot) and in some cases loss of the temporary drive.
 
+#### planned updates
+Microsoft have their internal update calendar. 
+- So customers get best experience
+- Most of these updates are performed without any impact upon your Virtual Machines or Cloud Services.
 
 
