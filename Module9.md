@@ -41,5 +41,6 @@ Azure App Service brings together everything you need to create websites, mobile
 - Devops Optimised : set up CI/CD with Azure DevOps, GitHub, BitBucket, Docker Hub, or Azure Container Registry. Promote updates through test and staging environments. Manage your apps in App Service by using Azure PowerShell or the cross-platform command-line interface (CLI).
 - Various Connectors like : (such as SAP), SaaS services (such as Salesforce), and internet services (such as Facebook). Access on-premises data using Hybrid Connections and Azure Virtual Networks.
 
-[Ms Learn -- Create App Service](https://docs.microsoft.com/en-us/learn/modules/configure-azure-app-services/3-create-app-service
-[Learn more in MS Product Page](https://azure.microsoft.com/en-in/services/app-service/)
+- [Ms Learn -- Create App Service](https://docs.microsoft.com/en-us/learn/modules/configure-azure-app-services/3-create-app-service)
+
+- [Learn more in MS Product Page](https://azure.microsoft.com/en-in/services/app-service/)
