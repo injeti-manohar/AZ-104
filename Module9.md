@@ -1,4 +1,4 @@
-)# PaaS compute Resource
+# PaaS compute Resource
 
 
 
@@ -48,3 +48,9 @@ Azure App Service brings together everything you need to create websites, mobile
 ------
 #### Application Insights 
 Application Insights, a feature of Azure Monitor, monitors your live applications
+
+.-----
+
+## Lesson 2 : Container Services
+
+
