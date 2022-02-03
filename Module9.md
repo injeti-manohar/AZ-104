@@ -44,3 +44,7 @@ Azure App Service brings together everything you need to create websites, mobile
 - [Ms Learn -- Create App Service](https://docs.microsoft.com/en-us/learn/modules/configure-azure-app-services/3-create-app-service)
 
 - [Learn more in MS Product Page](https://azure.microsoft.com/en-in/services/app-service/)
+
+------
+#### Application Insights 
+Application Insights, a feature of Azure Monitor, monitors your live applications
