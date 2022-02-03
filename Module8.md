@@ -1,5 +1,6 @@
 # Azure VM
-deployment tasks will include correctly sizing the machines, selecting storage, and configuring networking
+Your organization Not wanting to be constrained by the limitations of on-premises infrastructure, Pearson VUE created a five-year plan to migrate legacy on-premises applications and data to the cloud.
+As an Admin your tasks will include correctly sizing the machines, selecting storage, and configuring networking for 
 
 #### module overview
 > As you wish
