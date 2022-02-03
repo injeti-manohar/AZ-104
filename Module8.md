@@ -103,6 +103,8 @@ Here you add similar machines or remove them referred to as scale out and scale 
 - As demand goes up more virtual machine instances can be added. As demand goes down virtual machines instances can be removed. The process can be manual or automated or a combination of both.
 - can be attached to azure load balancer or Application gateway as backend 
 
+[TUTORIAL VM SCALE SET](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-create-vmss)
+
 ### auto scaling
 Autoscale minimizes the number of unnecessary VM instances that run your application when demand is low, while customers continue to receive an acceptable level of performance as demand grows and additional VM instances are automatically added.
 
