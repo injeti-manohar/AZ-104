@@ -32,3 +32,5 @@ Isolate your app into a new App Service plan when:
 
 Azure App Service brings together everything you need to create websites, mobile backends, and web APIs for any platform or device. Applications run and scale with ease on both Windows and Linux-based environments. There are many deployment choices. ⏬
 ![Different Hosting Options in App Service](https://docs.microsoft.com/en-us/learn/wwl-azure/configure-azure-app-services/media/web-quickstarts-c154c8e4.png)
+
+[Learn more in MS Product Page](https://azure.microsoft.com/en-in/services/app-service/)
