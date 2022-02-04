@@ -55,4 +55,10 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 
 ### Container Vs VM 
 
+#### Container Architecture -- 
+![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/container-diagram.svg)
+
+#### VM Architecture -- 
+![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/virtual-machine-diagram.svg)
+
 - [MS DOCS](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
