@@ -65,6 +65,7 @@ A container is essentially a package that contains everything that is needed to 
 
 ✓ each container shares the same host OS or system kernel and is much lighter in size, often only megabytes. This often means a container might take just seconds to start (versus the gigabytes and minutes required for a typical VM
 
+> Example -- DOCKER, LXD, PODMAN 
 
 #### Container Architecture -- 
 ![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/container-diagram.svg)
