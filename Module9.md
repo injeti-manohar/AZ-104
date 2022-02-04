@@ -66,3 +66,8 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 ### Azure Container Instances
 
 [Read from MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-azure-container-instances/3-review)
+
+### Azure Container Groups 
+A container group is a collection of containers that get scheduled on the same host machine. The containers in a container group share a lifecycle, resources, local network, and storage volumes. It's similar in concept to a pod in Kubernetes.
+
+> Common use cases described in [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-azure-container-instances/4-implement-container-groups)
