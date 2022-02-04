@@ -86,3 +86,19 @@ A container group is a collection of containers that get scheduled on the same h
 
 ### Docker
 The software can be developed locally within a Docker container, shared with Quality Assurance resources for testing. and then deployed to production in the Azure Cloud. Once deployed, the application can easily be scaled using the Azure Container Instances (ACI).
+
+## lesson 3 AKS
+The standard container management runtime focuses on managing individual containers. If you want to scale a complex system with multiple containers working together, this scenario becomes challenging. To make the management process easier, it's common to use a container management platform, such as Kubernetes.
+
+### terminology
+- Pools are groups of nodes with identical configurations.
+
+- Nodes are individual virtual machines running containerized applications.
+
+- Pods are a single instance of an application. A pod can contain multiple containers.
+
+- Container is a lightweight and portable executable image that contains software and all of its dependencies.
+
+- Deployment has one or more identical pods managed by Kubernetes.
+
+- Manifest is the YAML file describing a deployment.
