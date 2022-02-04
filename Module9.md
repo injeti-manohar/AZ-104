@@ -55,6 +55,14 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 
 ### Container Vs VM 
 
+**Why Containers ?**
+A container is essentially a package that contains everything that is needed to execute a piece of software. The package includes:
+
+- The application executable code.
+- The runtime environment (such as .NET Core).
+- System tools.
+- Settings.
+
 #### Container Architecture -- 
 ![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/container-diagram.svg)
 
@@ -71,3 +79,6 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 A container group is a collection of containers that get scheduled on the same host machine. The containers in a container group share a lifecycle, resources, local network, and storage volumes. It's similar in concept to a pod in Kubernetes.
 
 > Common use cases described in [MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-azure-container-instances/4-implement-container-groups)
+
+### Docker
+The software can be developed locally within a Docker container, shared with Quality Assurance resources for testing. and then deployed to production in the Azure Cloud. Once deployed, the application can easily be scaled using the Azure Container Instances (ACI).
