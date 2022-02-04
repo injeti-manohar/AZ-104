@@ -53,4 +53,6 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 
 ## Lesson 2 : Container Services
 
+### Container Vs VM 
 
+- [MS DOCS](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
