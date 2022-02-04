@@ -62,3 +62,7 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 ![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/virtual-machine-diagram.svg)
 
 - [MS DOCS](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
+
+### Azure Container Instances
+
+[Read from MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-azure-container-instances/3-review)
