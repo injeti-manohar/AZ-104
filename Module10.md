@@ -39,3 +39,8 @@ The MARS agent is a full featured agent that has many features.
 - No separate backup server required.
 - Not application aware; file, folder, and volume-level restore only.
 - Back up and restore content.
+
+> Your company has several critical virtual machine workloads running on Azure. You must ensure the company can recover these virtual machines if there's data loss or corruption.
+
+## Virtual Machine data protection
+There are several backup options available for VMs, depending on your use-case.
