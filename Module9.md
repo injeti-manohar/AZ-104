@@ -104,4 +104,6 @@ The standard container management runtime focuses on managing individual contain
 
 - Manifest is the YAML file describing a deployment.
 
+[A k s in Microsoft learn](https://docs.microsoft.com/en-us/learn/modules/configure-azure-kubernetes-service/)
+
 [AKS TUTORIAL](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal)
