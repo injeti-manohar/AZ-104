@@ -20,3 +20,8 @@
 - `SQL Server in Azure VMs` - Back up SQL Server databases running on Azure VMs
 
 - `SAP HANA databases in Azure VMs`- Backup SAP HANA databases running on Azure VMs
+
+**So why use azure backup**
+- simple backup solution for both on-premises and cloud Resource
+- Multiple storage options - Azure Backup offers three types of replication to keep your storage/data highly available.
+✓ LRS(3 COPIES IN DATA CENTRE) , ZRS & GRS 
