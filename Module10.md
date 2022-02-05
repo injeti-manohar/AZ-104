@@ -28,3 +28,6 @@
 - unlimited data transfer
 
 *[Azure Backup Pricing](https://azure.microsoft.com/en-us/pricing/details/backup/)
+
+### implementing onpremise file and folder backup
+[Learn more from MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-file-folder-backups/5-configure-premises)
