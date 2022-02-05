@@ -103,3 +103,5 @@ The standard container management runtime focuses on managing individual contain
 - Deployment has one or more identical pods managed by Kubernetes.
 
 - Manifest is the YAML file describing a deployment.
+
+[AKS TUTORIAL](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal)
