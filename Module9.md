@@ -45,6 +45,7 @@ Azure App Service brings together everything you need to create websites, mobile
 
 - [Learn more in MS Product Page](https://azure.microsoft.com/en-in/services/app-service/)
 
+- [App Service with local git tutorial](https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git?tabs=cli)
 ------
 #### Application Insights 
 Application Insights, a feature of Azure Monitor, monitors your live applications
