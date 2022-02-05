@@ -31,3 +31,11 @@
 
 ### implementing onpremise file and folder backup
 [Learn more from MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-file-folder-backups/5-configure-premises)
+
+### Microsoft agent for recovery services
+The MARS agent is a full featured agent that has many features.
+
+- Back up files and folders on physical or virtual Windows OS (VMs can be on-premises or in Azure).
+- No separate backup server required.
+- Not application aware; file, folder, and volume-level restore only.
+- Back up and restore content.
