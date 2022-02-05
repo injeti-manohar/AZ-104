@@ -25,3 +25,6 @@
 - simple backup solution for both on-premises and cloud Resource
 - Multiple storage options - Azure Backup offers three types of replication to keep your storage/data highly available.
 ✓ LRS(3 COPIES IN DATA CENTRE) , ZRS & GRS 
+- unlimited data transfer
+
+*[Azure Backup Pricing](https://azure.microsoft.com/en-us/pricing/details/backup/)
