@@ -12,9 +12,10 @@ enables you to gather monitoring and diagnostic information about the health of 
 Sources of monitoring data from Azure applications can be organized into tiers, the highest tiers being your application itself and the lower tiers being components of Azure platform. 
 [MS DOCS](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources)
 
-#key ability
+# key ability
 
 > All data collected by Azure Monitor fits into one of two fundamental types, metrics and logs.
+
 ### metrics and logs
 
 ### Metrics & logs
@@ -27,14 +28,17 @@ Metric -- easy to view and find in a complex interconnected system compared to l
 
 ### Data types 
 ----
-> Activity Logs record when resources are created or modified. Metrics tell you how the resource is performing and the resources it is consuming.
+### Activity log
 
+-  Activity Logs record when resources are created or modified. Metrics tell you how the resource is performing and the resources it is consuming.
+Entries in the Activity Log are system generated and cannot be changed
 
 With the Activity Log, you can determine the ‘what, who, and when’ for any write operations (PUT, POST, DELETE) taken on the resources in your subscription
 
 - Through activity logs, you can determine:
 
 What operations were taken on the resources in your subscription?
+
 ✓ Who started the operation?
 
 ✓ When the operation occurred?
