@@ -32,8 +32,15 @@ With the Activity Log, you can determine the ‘what, who, and when’ for any w
 
 What operations were taken on the resources in your subscription?
 ✓ Who started the operation?
+
 ✓ When the operation occurred?
+
 ✓ The status of the operation.
+
 ✓ The values of other properties that might help you research the operation.
 
 Log actual operation of the resources by enabling diagnostics and adding an agent to compute resources
+
+### log analytics
+
+- `System Center Operations Manager (SCOM)` is a cross-platform data center monitoring system for operating systems and hypervisors.
