@@ -8,6 +8,10 @@ Hence maintaing
 ### Azure Monitor
 enables you to gather monitoring and diagnostic information about the health of your services. You can use this information to visualize and analyze the causes of problems that might occur in your app.
 
+### Monitor
+Sources of monitoring data from Azure applications can be organized into tiers, the highest tiers being your application itself and the lower tiers being components of Azure platform. 
+[MS DOCS](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources)
+
 #key ability
 
 > All data collected by Azure Monitor fits into one of two fundamental types, metrics and logs.
@@ -42,5 +46,9 @@ What operations were taken on the resources in your subscription?
 Log actual operation of the resources by enabling diagnostics and adding an agent to compute resources
 
 ### log analytics
+Log Analytics is a tool in the Azure portal used to edit and run log queries with data in Azure Monitor Logs
+- it's built on top of Azure Data Explorer and uses the same Kusto Query Language (KQL). Log Analytics adds features specific to Azure Monitor such as filtering by time range and the ability to create an alert rule from a query. 
 
+### connected Services
+- Collecting data into this platform allows data from multiple resources to be analyzed together using a common set of tools in Azure Monitor.
 - `System Center Operations Manager (SCOM)` is a cross-platform data center monitoring system for operating systems and hypervisors.
