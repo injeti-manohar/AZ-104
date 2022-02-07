@@ -62,4 +62,4 @@ for automating general tasks in azure, we can create a automation account
 
 > In Azure Automation, you can enable the Update Management, Change Tracking and Inventory, and Start/Stop VMs during off-hours features for your servers and virtual machines. These features have a dependency on a Log Analytics workspace, and therefore require linking the workspace with an Automation account. However, only certain regions are supported to link them together
 
-- It’s important to note that some base metrics are available by default in the portal when a VM is configured (CPU, Network, Disk bytes, Disk Operations). For all other guest OS performance metrics, diagnostic logs must be enabled to view metrics from Azure Monitor Metrics.
+- Azure Monitoring collects host-level metrics - like CPU utilization, disk and network usage - for all virtual machines without any additional software. For more insight into this virtual machine, you can collect guest-level metrics, logs, and other diagnostic data using the Azure Diagnostics agent. You can also send diagnostic data to other services like Application Insight
