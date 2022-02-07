@@ -56,3 +56,8 @@ Log Analytics is a tool in the Azure portal used to edit and run log queries wit
 ### connected Services
 - Collecting data into this platform allows data from multiple resources to be analyzed together using a common set of tools in Azure Monitor.
 - `System Center Operations Manager (SCOM)` is a cross-platform data center monitoring system for operating systems and hypervisors.
+
+### Extra knowledege
+for automating general tasks in azure, we can create a automation account
+
+> In Azure Automation, you can enable the Update Management, Change Tracking and Inventory, and Start/Stop VMs during off-hours features for your servers and virtual machines. These features have a dependency on a Log Analytics workspace, and therefore require linking the workspace with an Automation account. However, only certain regions are supported to link them together
