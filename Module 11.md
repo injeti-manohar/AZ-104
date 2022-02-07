@@ -19,15 +19,13 @@ Go to portal, explore yourself
 
 > All data collected by Azure Monitor fits into one of two fundamental types, metrics and logs.
 
-### metrics and logs
-
 ### Metrics & logs
 
 considered as the pillars of observability
 
-Log -- Nothing new, every app generates logs 
+Log -- (text) Nothing new, every app generates logs 
 
-Metric -- easy to view and find in a complex interconnected system compared to logs
+Metric -- (numbers) easy to view and find in a complex interconnected system compared to logs
 
 ### Data types 
 Read slides 
