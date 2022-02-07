@@ -12,6 +12,8 @@ enables you to gather monitoring and diagnostic information about the health of 
 Sources of monitoring data from Azure applications can be organized into tiers, the highest tiers being your application itself and the lower tiers being components of Azure platform. 
 [MS DOCS](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/data-sources)
 
+![](https://raw.githubusercontent.com/Ananyojha/spare-images/main/Screenshot_20210808-165606.png)
+
 # key ability
 Go to portal, explore yourself 
 
