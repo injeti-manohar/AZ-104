@@ -1,3 +1,6 @@
+> Building and running your organization starts with compute, whether you are building enterprise, cloud-native or mobile apps, or running massive clusters to sequence the human genome. AWS offers a comprehensive portfolio of compute services allowing you to develop, deploy, run, and scale your applications and workloads in the world’s most powerful, secure and innovative compute cloud.
+
+
 # Azure VM
 Your organization Not wanting to be constrained by the limitations of on-premises infrastructure, Pearson VUE created a five-year plan to migrate legacy on-premises applications and data to the cloud.
 As an Admin your tasks will include correctly sizing the machines, selecting storage, and configuring networking for 
