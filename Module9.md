@@ -57,6 +57,7 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 ### Container Vs VM 
 
 **Why Containers ?**
+> Learn it from [k8](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 A container is essentially a package that contains everything that is needed to execute a piece of software. The package includes:
 
