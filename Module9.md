@@ -84,6 +84,9 @@ is portable (can be run on any OS)
 
 - [MS DOCS](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
 
+#### what is container image ?
+image contains the container’s filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
+
 ### Azure Container Instances
 
 [Read from MS LEARN](https://docs.microsoft.com/en-us/learn/modules/configure-azure-container-instances/3-review)
