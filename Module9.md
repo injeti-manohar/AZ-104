@@ -76,6 +76,9 @@ according to Docker container:
 is portable (can be run on any OS)
 - Containers are isolated from each other and run their own software, binaries, and configurations.
 
+![](https://d33wubrfki0l68.cloudfront.net/26a177ede4d7b032362289c6fccd448fc4a91174/eb693/images/docs/container_evolution.svg)
+
+
 #### Container Architecture -- 
 ![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/container-diagram.svg)
 
