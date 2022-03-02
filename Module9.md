@@ -57,6 +57,7 @@ Application Insights, a feature of Azure Monitor, monitors your live application
 ### Container Vs VM 
 
 **Why Containers ?**
+
 A container is essentially a package that contains everything that is needed to execute a piece of software. The package includes:
 
 - The application executable code.
@@ -67,6 +68,13 @@ A container is essentially a package that contains everything that is needed to 
 ✓ each container shares the same host OS or system kernel and is much lighter in size, often only megabytes. This often means a container might take just seconds to start (versus the gigabytes and minutes required for a typical VM
 
 > Example -- DOCKER, LXD, PODMAN 
+
+according to Docker container:
+
+- is a runnable instance of an image. You can create, start, stop, move, or delete a container using the DockerAPI or CLI.
+- can be run on local machines, virtual machines or deployed to the cloud.
+is portable (can be run on any OS)
+- Containers are isolated from each other and run their own software, binaries, and configurations.
 
 #### Container Architecture -- 
 ![](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/media/container-diagram.svg)
