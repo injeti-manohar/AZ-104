@@ -22,7 +22,7 @@ An Azure service principal is an identity created for use with applications, hos
 
 For example, you can assign roles to allow adding or changing users, resetting user passwords, managing user licenses, or managing domain names.
 
-
+![](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWyDDp?ver=2c13&q=0&m=6&h=724&w=1624&b=%23FFFFFFFF&u=t&l=f&f=jpg&o=t&aim=true)
 
 Who signs up for Azure AD is global administrator
 
