@@ -19,3 +19,7 @@ Choose Azure Active Directory (B2C) if you need to:
 Provide highly customizable sign-in and other identity management experiences for your external facing applications. Learn more
 
 Scale up to hundreds of millions of users. Learn more
+
+
+## diffrent data roles
+```https://docs.microsoft.com/en-us/learn/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles```
